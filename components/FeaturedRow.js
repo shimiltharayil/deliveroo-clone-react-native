@@ -29,7 +29,7 @@ type->{
       .then((data) => {
         setRestaurants(data?.restaurant);
       });
-  }, []);
+  }, [id]);
    
          
   return (
