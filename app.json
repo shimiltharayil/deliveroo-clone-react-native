@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "delivero",
-    "slug": "delivero",
+    "name": "deliveroo",
+    "slug": "deliveroo-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/download.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "50a37bae-7f7b-4e0b-ad60-3eddf2c1d293"
+      }
+    },
+    "owner": "ssgsgs"
   }
 }
